@@ -60,7 +60,6 @@ def check_the_guess(guess_number: int, secret_number: int) -> str:
         status_check = 0
         return status_check
 
-
 #Main
 if __name__ == '__main__': #This part only runs when this file run directly. if __name__ == '__main__' is a special syntax
     secret_number = random.randint(1,100) #randint(x,y) will return an integer between x and y (both ends included)
